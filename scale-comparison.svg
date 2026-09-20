@@ -1,0 +1,1491 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1250" width="1440" height="1250">
+  <style>
+    text { font-family: 'SF Pro Display', 'Inter', -apple-system, 'Segoe UI', sans-serif; }
+  </style>
+  <rect width="1440" height="1250" fill="#ffffff"/>
+  <rect x="0" y="0" width="1440" height="4" fill="url(#topGrad)"/>
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0969da"/>
+      <stop offset="0.5" stop-color="#8250df"/>
+      <stop offset="1" stop-color="#e5533b"/>
+    </linearGradient>
+  </defs>
+  <text x="24" y="40" font-size="30" font-weight="800" fill="#0d1117">RELATIVE SCALE COMPARISON</text>
+  <text x="24" y="66" font-size="13" fill="#57606a">Diatonic 7th Chords · C Major vs A Natural / Harmonic / Melodic Minor — staggered by tonic (C Major starts on C, minors on A)</text>
+  <g transform="translate(24, 96)">
+    <rect x="0" y="-8" width="12" height="12" rx="2" fill="#0969da"/><text x="18" y="2" font-size="11" fill="#57606a">maj7</text>
+    <rect x="86" y="-8" width="12" height="12" rx="2" fill="#1a7f37"/><text x="104" y="2" font-size="11" fill="#57606a">m7</text>
+    <rect x="160" y="-8" width="12" height="12" rx="2" fill="#9a6700"/><text x="178" y="2" font-size="11" fill="#57606a">7·dom</text>
+    <rect x="248" y="-8" width="12" height="12" rx="2" fill="#e5533b"/><text x="266" y="2" font-size="11" fill="#57606a">ø7·half-dim</text>
+    <rect x="348" y="-8" width="12" height="12" rx="2" fill="#cf222e"/><text x="366" y="2" font-size="11" fill="#57606a">°7·dim</text>
+    <rect x="432" y="-6" width="10" height="10" rx="2" fill="#8250df"/><text x="448" y="2" font-size="11" fill="#57606a">m(maj7)</text>
+    <rect x="528" y="-6" width="10" height="10" rx="2" fill="#bf3989"/><text x="544" y="2" font-size="11" fill="#57606a">maj7#5</text>
+    <line x1="620" y1="-8" x2="620" y2="4" stroke="#d0d7de"/>
+    <circle cx="638" cy="-2" r="5" fill="#0d1117"/><text x="650" y="2" font-size="11" fill="#57606a">root</text>
+    <circle cx="698" cy="-2" r="5" fill="#0969da"/><text x="710" y="2" font-size="11" fill="#57606a">3rd</text>
+    <circle cx="754" cy="-2" r="5" fill="#1a7f37"/><text x="766" y="2" font-size="11" fill="#57606a">5th</text>
+    <circle cx="810" cy="-2" r="5" fill="#9a6700"/><text x="822" y="2" font-size="11" fill="#57606a">7th</text>
+    <line x1="878" y1="-8" x2="878" y2="4" stroke="#d0d7de"/>
+    <text x="896" y="2" font-size="11" fill="#57606a">× muted · ○ open · middle 4 strings (A-D-G-B), CAGED A-shape, root on A string</text>
+  </g>
+  <line x1="24" y1="122" x2="1416" y2="122" stroke="#d0d7de" stroke-width="1"/>
+  <g font-size="16" font-weight="700" fill="#57606a" text-anchor="middle">
+    <text x="267" y="138">A</text>
+    <text x="402" y="138">B</text>
+    <text x="537" y="138">C</text>
+    <text x="672" y="138">D</text>
+    <text x="807" y="138">E</text>
+    <text x="942" y="138">F</text>
+    <text x="1077" y="138">G</text>
+    <text x="1212" y="138">A′</text>
+    <text x="1347" y="138">B′</text>
+  </g>
+  <text x="1212" y="150" font-size="9" fill="#6e7781" text-anchor="middle">8va</text>
+  <text x="1347" y="150" font-size="9" fill="#6e7781" text-anchor="middle">8va</text>
+  <line x1="24" y1="158" x2="1416" y2="158" stroke="#d0d7de" stroke-width="1"/>
+  <g>
+    <rect x="0" y="150" width="1440" height="195" fill="#0969da" fill-opacity="0.04"/>
+    <rect x="0" y="150" width="1440" height="2" fill="#0969da" opacity="0.35"/>
+    <text x="15" y="170" font-size="13" font-weight="700" fill="#0969da">C MAJOR</text>
+    <text x="15" y="184" font-size="10" fill="#6e7781">Ionian · starts on C</text>
+  </g>
+  <g>
+    <rect x="0" y="360" width="1440" height="195" fill="#1a7f37" fill-opacity="0.04"/>
+    <rect x="0" y="360" width="1440" height="2" fill="#1a7f37" opacity="0.35"/>
+    <text x="15" y="380" font-size="13" font-weight="700" fill="#1a7f37">A NAT MINOR</text>
+    <text x="15" y="394" font-size="10" fill="#6e7781">Aeolian · relative to C Major</text>
+  </g>
+  <g>
+    <rect x="0" y="570" width="1440" height="195" fill="#9a6700" fill-opacity="0.04"/>
+    <rect x="0" y="570" width="1440" height="2" fill="#9a6700" opacity="0.35"/>
+    <text x="15" y="590" font-size="13" font-weight="700" fill="#9a6700">A HARM MINOR</text>
+    <text x="15" y="604" font-size="10" fill="#6e7781">♭6 raised to ♯7</text>
+  </g>
+  <g>
+    <rect x="0" y="780" width="1440" height="195" fill="#8250df" fill-opacity="0.04"/>
+    <rect x="0" y="780" width="1440" height="2" fill="#8250df" opacity="0.35"/>
+    <text x="15" y="800" font-size="13" font-weight="700" fill="#8250df">A MELOD MINOR</text>
+    <text x="15" y="814" font-size="10" fill="#6e7781">ascending · raises 6 and 7</text>
+  </g>
+  <g transform="translate(475,165) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#0969da"/><rect x="0" y="13" width="184" height="13" fill="#0969da"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">I · C</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 3</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#0969da">Cmaj7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">C E G B</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">1</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">2</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#0969da">3</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">5</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G</text>
+<circle cx="107" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="107" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<circle cx="137" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="137" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 C</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 G</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">7 B</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">3 E</text>
+  </g>
+  <g transform="translate(610,165) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#1a7f37"/><rect x="0" y="13" width="184" height="13" fill="#1a7f37"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">ii · D</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 5</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#1a7f37">Dm7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">D F A C</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">3</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#1a7f37">5</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">6</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">7</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 D</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 A</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 C</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 F</text>
+  </g>
+  <g transform="translate(745,165) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#1a7f37"/><rect x="0" y="13" width="184" height="13" fill="#1a7f37"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">iii · E</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 7</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#1a7f37">Em7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">E G B D</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">5</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">6</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#1a7f37">7</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">8</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">9</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 E</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 B</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 D</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 G</text>
+  </g>
+  <g transform="translate(880,165) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#0969da"/><rect x="0" y="13" width="184" height="13" fill="#0969da"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">IV · F</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 8</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#0969da">Fmaj7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">F A C E</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">6</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">7</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#0969da">8</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">9</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">10</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<circle cx="107" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="107" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<circle cx="137" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="137" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 F</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 C</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">7 E</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">3 A</text>
+  </g>
+  <g transform="translate(1015,165) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#9a6700"/><rect x="0" y="13" width="184" height="13" fill="#9a6700"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">V · G</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 10</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#9a6700">G7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">G B D F</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">8</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">9</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#9a6700">10</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">11</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">12</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F</text>
+<circle cx="137" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="137" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 G</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 D</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 F</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">3 B</text>
+  </g>
+  <g transform="translate(1150,165) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#1a7f37"/><rect x="0" y="13" width="184" height="13" fill="#1a7f37"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">vi · A</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 12</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#1a7f37">Am7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">A C E G</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">10</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">11</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#1a7f37">12</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">13</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">14</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 A</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 E</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 G</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 C</text>
+  </g>
+  <g transform="translate(1285,165) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#e5533b"/><rect x="0" y="13" width="184" height="13" fill="#e5533b"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">vii° · B</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 14</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#e5533b">Bø7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">B D F A</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">12</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">13</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#e5533b">14</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">15</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">16</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<circle cx="107" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="107" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 B</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭5 F</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 A</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 D</text>
+  </g>
+  <g transform="translate(205,375) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#1a7f37"/><rect x="0" y="13" width="184" height="13" fill="#1a7f37"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">i · A</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">open</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#1a7f37">Am7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">A C E G</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#0d1117" stroke-width="2.2"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#1a7f37">0</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">1</text>
+<text x="77" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">2</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">3</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="17" cy="110" r="8.5" fill="white" stroke="#0d1117" stroke-width="1.6"/>
+<text x="17" y="112.6" text-anchor="middle" font-size="7" font-weight="700" fill="#0d1117">A</text>
+<circle cx="77" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="77" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<circle cx="17" cy="154" r="8.5" fill="white" stroke="#9a6700" stroke-width="1.6"/>
+<text x="17" y="156.6" text-anchor="middle" font-size="7" font-weight="700" fill="#9a6700">G</text>
+<circle cx="47" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="47" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 A</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 E</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 G</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 C</text>
+  </g>
+  <g transform="translate(340,375) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#e5533b"/><rect x="0" y="13" width="184" height="13" fill="#e5533b"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">ii° · B</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 2</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#e5533b">Bø7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">B D F A</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#0d1117" stroke-width="2.2"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">0</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">1</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#e5533b">2</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">3</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<circle cx="107" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="107" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 B</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭5 F</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 A</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 D</text>
+  </g>
+  <g transform="translate(475,375) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#0969da"/><rect x="0" y="13" width="184" height="13" fill="#0969da"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">III · C</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 3</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#0969da">Cmaj7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">C E G B</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">1</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">2</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#0969da">3</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">5</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G</text>
+<circle cx="107" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="107" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<circle cx="137" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="137" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 C</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 G</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">7 B</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">3 E</text>
+  </g>
+  <g transform="translate(610,375) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#1a7f37"/><rect x="0" y="13" width="184" height="13" fill="#1a7f37"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">iv · D</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 5</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#1a7f37">Dm7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">D F A C</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">3</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#1a7f37">5</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">6</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">7</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 D</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 A</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 C</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 F</text>
+  </g>
+  <g transform="translate(745,375) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#1a7f37"/><rect x="0" y="13" width="184" height="13" fill="#1a7f37"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">v · E</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 7</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#1a7f37">Em7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">E G B D</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">5</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">6</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#1a7f37">7</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">8</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">9</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 E</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 B</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 D</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 G</text>
+  </g>
+  <g transform="translate(880,375) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#0969da"/><rect x="0" y="13" width="184" height="13" fill="#0969da"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">VI · F</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 8</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#0969da">Fmaj7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">F A C E</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">6</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">7</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#0969da">8</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">9</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">10</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<circle cx="107" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="107" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<circle cx="137" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="137" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 F</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 C</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">7 E</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">3 A</text>
+  </g>
+  <g transform="translate(1015,375) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#9a6700"/><rect x="0" y="13" width="184" height="13" fill="#9a6700"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">VII · G</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 10</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#9a6700">G7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">G B D F</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">8</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">9</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#9a6700">10</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">11</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">12</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F</text>
+<circle cx="137" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="137" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 G</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 D</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 F</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">3 B</text>
+  </g>
+  <g transform="translate(205,585) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#8250df"/><rect x="0" y="13" width="184" height="13" fill="#8250df"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">i · A</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">open</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#8250df">Am(maj7)</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">A C E G#</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#0d1117" stroke-width="2.2"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#8250df">0</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">1</text>
+<text x="77" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">2</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">3</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="17" cy="110" r="8.5" fill="white" stroke="#0d1117" stroke-width="1.6"/>
+<text x="17" y="112.6" text-anchor="middle" font-size="7" font-weight="700" fill="#0d1117">A</text>
+<circle cx="77" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="77" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<circle cx="47" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="47" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G#</text>
+<circle cx="47" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="47" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 A</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 E</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">7 G#</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 C</text>
+  </g>
+  <g transform="translate(340,585) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#e5533b"/><rect x="0" y="13" width="184" height="13" fill="#e5533b"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">ii° · B</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 2</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#e5533b">Bø7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">B D F A</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#0d1117" stroke-width="2.2"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">0</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">1</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#e5533b">2</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">3</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<circle cx="107" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="107" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 B</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭5 F</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 A</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 D</text>
+  </g>
+  <g transform="translate(475,585) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#bf3989"/><rect x="0" y="13" width="184" height="13" fill="#bf3989"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">III+ · C</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 3</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#bf3989">Cmaj7#5</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">C E G# B</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">2</text>
+<text x="47" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#bf3989">3</text>
+<text x="77" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">5</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">6</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="47" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="47" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G#</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 C</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♯5 G#</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">7 B</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">3 E</text>
+  </g>
+  <g transform="translate(610,585) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#1a7f37"/><rect x="0" y="13" width="184" height="13" fill="#1a7f37"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">iv · D</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 5</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#1a7f37">Dm7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">D F A C</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">3</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#1a7f37">5</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">6</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">7</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 D</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 A</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 C</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 F</text>
+  </g>
+  <g transform="translate(745,585) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#9a6700"/><rect x="0" y="13" width="184" height="13" fill="#9a6700"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">V · E</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 7</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#9a6700">E7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">E G# B D</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">5</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">6</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#9a6700">7</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">8</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">9</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<circle cx="137" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="137" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G#</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 E</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 B</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 D</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">3 G#</text>
+  </g>
+  <g transform="translate(880,585) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#0969da"/><rect x="0" y="13" width="184" height="13" fill="#0969da"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">VI · F</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 8</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#0969da">Fmaj7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">F A C E</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">6</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">7</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#0969da">8</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">9</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">10</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<circle cx="107" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="107" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<circle cx="137" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="137" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 F</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 C</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">7 E</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">3 A</text>
+  </g>
+  <g transform="translate(1015,585) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#cf222e"/><rect x="0" y="13" width="184" height="13" fill="#cf222e"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">vii° · G#</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 11</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#cf222e">G#°7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">G# B D F</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">9</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">10</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#cf222e">11</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">12</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">13</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G#</text>
+<circle cx="107" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="107" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<circle cx="47" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="47" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 G#</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭5 D</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">°7 F</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 B</text>
+  </g>
+  <g transform="translate(205,795) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#8250df"/><rect x="0" y="13" width="184" height="13" fill="#8250df"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">i · A</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">open</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#8250df">Am(maj7)</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">A C E G#</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#0d1117" stroke-width="2.2"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#8250df">0</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">1</text>
+<text x="77" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">2</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">3</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="17" cy="110" r="8.5" fill="white" stroke="#0d1117" stroke-width="1.6"/>
+<text x="17" y="112.6" text-anchor="middle" font-size="7" font-weight="700" fill="#0d1117">A</text>
+<circle cx="77" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="77" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<circle cx="47" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="47" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G#</text>
+<circle cx="47" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="47" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 A</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 E</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">7 G#</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 C</text>
+  </g>
+  <g transform="translate(340,795) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#1a7f37"/><rect x="0" y="13" width="184" height="13" fill="#1a7f37"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">ii · B</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 2</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#1a7f37">Bm7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">B D F# A</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#0d1117" stroke-width="2.2"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">0</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">1</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#1a7f37">2</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">3</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F#</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 B</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 F#</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 A</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 D</text>
+  </g>
+  <g transform="translate(475,795) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#bf3989"/><rect x="0" y="13" width="184" height="13" fill="#bf3989"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">III+ · C</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 3</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#bf3989">Cmaj7#5</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">C E G# B</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">2</text>
+<text x="47" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#bf3989">3</text>
+<text x="77" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">5</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">6</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="47" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="47" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G#</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 C</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♯5 G#</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">7 B</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">3 E</text>
+  </g>
+  <g transform="translate(610,795) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#9a6700"/><rect x="0" y="13" width="184" height="13" fill="#9a6700"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">IV · D</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 5</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#9a6700">D7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">D F# A C</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">3</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">4</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#9a6700">5</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">6</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">7</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<circle cx="137" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="137" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F#</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 D</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 A</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 C</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">3 F#</text>
+  </g>
+  <g transform="translate(745,795) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#9a6700"/><rect x="0" y="13" width="184" height="13" fill="#9a6700"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">V · E</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 7</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#9a6700">E7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">E G# B D</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">5</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">6</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#9a6700">7</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">8</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">9</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<circle cx="137" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="137" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<circle cx="137" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="137" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G#</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 E</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">5 B</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 D</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">3 G#</text>
+  </g>
+  <g transform="translate(880,795) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#e5533b"/><rect x="0" y="13" width="184" height="13" fill="#e5533b"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">vi° · F#</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 9</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#e5533b">F#ø7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">F# A C E</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">7</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">8</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#e5533b">9</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">10</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">11</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F#</text>
+<circle cx="107" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="107" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 F#</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭5 C</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 E</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 A</text>
+  </g>
+  <g transform="translate(1015,795) scale(0.6793)">
+<rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="0" y="0" width="184" height="26" rx="8" fill="#e5533b"/><rect x="0" y="13" width="184" height="13" fill="#e5533b"/>
+<text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">vii° · G#</text>
+<text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">fret 11</text>
+<text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#e5533b">G#ø7</text>
+<text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">G# B D F#</text>
+<line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+<line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+<line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+<line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+<line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+<line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+<line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+<text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text>
+<text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text>
+<text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text>
+<text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text>
+<text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text>
+<text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+<text x="17" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">9</text>
+<text x="47" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">10</text>
+<text x="77" y="79" text-anchor="middle" font-size="9" font-weight="800" fill="#e5533b">11</text>
+<text x="107" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">12</text>
+<text x="137" y="79" text-anchor="middle" font-size="8.5" font-weight="400" fill="#6e7781">13</text>
+<text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<text x="23" y="201" font-size="10" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">×</text>
+<circle cx="77" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/>
+<text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G#</text>
+<circle cx="107" cy="132" r="8.5" fill="#1a7f37" stroke="white" stroke-width="1.2"/>
+<text x="107" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+<circle cx="77" cy="154" r="8.5" fill="#9a6700" stroke="white" stroke-width="1.2"/>
+<text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F#</text>
+<circle cx="107" cy="176" r="8.5" fill="#0969da" stroke="white" stroke-width="1.2"/>
+<text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+<rect x="17" y="224" width="36" height="20" rx="4" fill="#0d1117"/>
+<text x="35.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">1 G#</text>
+<rect x="59" y="224" width="36" height="20" rx="4" fill="#1a7f37"/>
+<text x="77.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭5 D</text>
+<rect x="101" y="224" width="36" height="20" rx="4" fill="#9a6700"/>
+<text x="119.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭7 F#</text>
+<rect x="143" y="224" width="36" height="20" rx="4" fill="#0969da"/>
+<text x="161.0" y="237.5" text-anchor="middle" font-size="7.5" font-weight="700" fill="white">♭3 B</text>
+  </g>
+  <g transform="translate(205,165) scale(0.6793)">
+    <rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-dasharray="6 6" stroke-opacity="0.7"/>
+  </g>
+  <g transform="translate(340,165) scale(0.6793)">
+    <rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-dasharray="6 6" stroke-opacity="0.7"/>
+  </g>
+  <g transform="translate(1150,375) scale(0.6793)">
+    <rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-dasharray="6 6" stroke-opacity="0.7"/>
+  </g>
+  <g transform="translate(1285,375) scale(0.6793)">
+    <rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-dasharray="6 6" stroke-opacity="0.7"/>
+  </g>
+  <g transform="translate(1150,585) scale(0.6793)">
+    <rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-dasharray="6 6" stroke-opacity="0.7"/>
+  </g>
+  <g transform="translate(1285,585) scale(0.6793)">
+    <rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-dasharray="6 6" stroke-opacity="0.7"/>
+  </g>
+  <g transform="translate(1150,795) scale(0.6793)">
+    <rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-dasharray="6 6" stroke-opacity="0.7"/>
+  </g>
+  <g transform="translate(1285,795) scale(0.6793)">
+    <rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-dasharray="6 6" stroke-opacity="0.7"/>
+  </g>
+
+  <line x1="24" y1="985" x2="1416" y2="985" stroke="#d0d7de" stroke-width="1"/>
+  <text x="24" y="1003" font-size="16" font-weight="800" fill="#0d1117">SHARED CHORDS — same root + quality, aligned by column</text>
+  <text x="24" y="1019" font-size="12" fill="#57606a">Columns are root notes. C Major and A Natural Minor are relative scales: identical chords, perfectly aligned by the stagger.</text>
+  <g font-size="12">
+    <g>
+      <rect x="24" y="1033" width="458" height="38" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="38" y="1057" font-weight="800" fill="#8250df">Am(maj7)</text>
+      <text x="116" y="1057" fill="#57606a">col A · Harm i · Mel i</text>
+    </g>
+    <g>
+      <rect x="494" y="1033" width="458" height="38" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="508" y="1057" font-weight="800" fill="#e5533b">Bø7</text>
+      <text x="586" y="1057" fill="#57606a">col B · Nat ii · Harm ii</text>
+    </g>
+    <g>
+      <rect x="964" y="1033" width="458" height="38" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="978" y="1057" font-weight="800" fill="#0969da">Cmaj7</text>
+      <text x="1056" y="1057" fill="#57606a">col C · Maj I · Nat III (relative)</text>
+    </g>
+    <g>
+      <rect x="24" y="1079" width="458" height="38" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="38" y="1103" font-weight="800" fill="#bf3989">Cmaj7♯5</text>
+      <text x="122" y="1103" fill="#57606a">col C · Harm III · Mel III</text>
+    </g>
+    <g>
+      <rect x="494" y="1079" width="458" height="38" rx="6" fill="#f6f8fa" stroke="#57606a" stroke-opacity="0.3"/>
+      <text x="508" y="1103" font-weight="800" fill="#1a7f37">Dm7</text>
+      <text x="586" y="1103" fill="#57606a">col D · Maj ii · Nat iv · Harm iv (×3)</text>
+    </g>
+    <g>
+      <rect x="964" y="1079" width="458" height="38" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="978" y="1103" font-weight="800" fill="#1a7f37">Em7</text>
+      <text x="1056" y="1103" fill="#57606a">col E · Maj iii · Nat v (relative)</text>
+    </g>
+    <g>
+      <rect x="24" y="1125" width="458" height="38" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="38" y="1149" font-weight="800" fill="#9a6700">E7</text>
+      <text x="116" y="1149" fill="#57606a">col E · Harm V · Mel V</text>
+    </g>
+    <g>
+      <rect x="494" y="1125" width="458" height="38" rx="6" fill="#f6f8fa" stroke="#57606a" stroke-opacity="0.3"/>
+      <text x="508" y="1149" font-weight="800" fill="#0969da">Fmaj7</text>
+      <text x="586" y="1149" fill="#57606a">col F · Maj IV · Nat VI · Harm VI (×3)</text>
+    </g>
+    <g>
+      <rect x="964" y="1125" width="458" height="38" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+      <text x="978" y="1149" font-weight="800" fill="#9a6700">G7</text>
+      <text x="1056" y="1149" fill="#57606a">col G · Maj V · Nat VII (relative)</text>
+    </g>
+  </g>
+  <text x="24" y="1185" font-size="11" fill="#6e7781">Color = chord quality · White border = shared chord · Dashed cell = no chord on that root · Stagger shows relative scales (C Major ↔ A Natural Minor) with identical chords aligned vertically · Fretboard: 6-string, middle-4 voicing (A-D-G-B), CAGED A-shape, root on A string · ×=muted · ○=open</text>
+</svg>

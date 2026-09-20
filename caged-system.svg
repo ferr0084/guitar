@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 800" width="1240" height="800">
+  <style>
+    text { font-family: 'SF Pro Display', 'Inter', -apple-system, 'Segoe UI', sans-serif; }
+  </style>
+  <rect width="1240" height="800" fill="#ffffff"/>
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="0.5" stop-color="#8250df"/>
+      <stop offset="1" stop-color="#DC2626"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="0" width="1174" height="4" fill="url(#topGrad)"/>
+  <text x="24" y="42" font-size="30" font-weight="800" fill="#0d1117">CAGED SYSTEM — FIVE OPEN SHAPES, ONE NECK</text>
+  <text x="24" y="64" font-size="11" fill="#57606a">Five open grips — C · A · G · E · D — become every major chord when moved.</text>
+  <text x="24" y="80" font-size="11" fill="#57606a">Row 1 shows the exact open shapes; the neck below shows them all moved to C, overlapping.</text>
+
+  <g transform="translate(24, 102)">
+    <circle cx="5" cy="0" r="6" fill="#0d1117"/><text x="16" y="5" font-size="11" fill="#57606a">root</text>
+    <circle cx="64" cy="0" r="6" fill="#2563EB"/><text x="76" y="5" font-size="11" fill="#57606a">3rd</text>
+    <circle cx="112" cy="0" r="6" fill="#059669"/><text x="124" y="5" font-size="11" fill="#57606a">5th</text>
+    <text x="164" y="5" font-size="11" fill="#57606a">o = open · x = muted</text>
+  </g>
+
+
+  <!-- TOP ROW: 5 OPEN SHAPES - CORRECTED MAJOR x32010/x02220/320003/022100/xx0232 -->
+  <g transform="translate(36, 150)">
+    <rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="0" y="0" width="184" height="26" rx="8" fill="#2563EB"/><rect x="0" y="13" width="184" height="13" fill="#2563EB"/>
+    <text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">C · shape</text><text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">open</text>
+    <text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#2563EB">C</text><text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">x32010 · C E G C E</text>
+    <line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+    <line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+    <line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+    <line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+    <line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+    <line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+    <line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <rect x="15" y="88" width="4" height="110" rx="1" fill="#8b949e"/>
+    <text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text><text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text><text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text><text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text><text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text><text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+    <text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle">×</text>
+    <text x="23" y="157" font-size="9" fill="#6e7781" text-anchor="middle">o</text><text x="23" y="201" font-size="9" fill="#6e7781" text-anchor="middle">o</text>
+    <circle cx="107" cy="110" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="107" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+    <circle cx="77" cy="132" r="8.5" fill="#2563EB" stroke="white" stroke-width="1.2"/><text x="77" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+    <circle cx="47" cy="176" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="47" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C</text>
+    <text x="92" y="245" text-anchor="middle" font-size="8.5" fill="#57606a">root A string · 3rd fret</text>
+  </g>
+  <g transform="translate(258, 150)">
+    <rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="0" y="0" width="184" height="26" rx="8" fill="#059669"/><rect x="0" y="13" width="184" height="13" fill="#059669"/>
+    <text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">A · shape</text><text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">open</text>
+    <text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#059669">A</text><text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">x02220 · A E A C# E</text>
+    <line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+    <line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+    <line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+    <line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+    <line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+    <line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+    <line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <rect x="15" y="88" width="4" height="110" rx="1" fill="#8b949e"/>
+    <text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text><text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text><text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text><text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text><text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text><text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+    <text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle">×</text>
+    <text x="23" y="113" font-size="9" fill="#6e7781" text-anchor="middle">o</text><text x="23" y="201" font-size="9" fill="#6e7781" text-anchor="middle">o</text>
+    <circle cx="77" cy="132" r="8.5" fill="#059669" stroke="white" stroke-width="1.2"/><text x="77" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+    <circle cx="77" cy="154" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+    <circle cx="77" cy="176" r="8.5" fill="#2563EB" stroke="white" stroke-width="1.2"/><text x="77" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">C#</text>
+    <text x="92" y="245" text-anchor="middle" font-size="8.5" fill="#57606a">root A string · open</text>
+  </g>
+  <g transform="translate(480, 150)">
+    <rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="0" y="0" width="184" height="26" rx="8" fill="#D97706"/><rect x="0" y="13" width="184" height="13" fill="#D97706"/>
+    <text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">G · shape</text><text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">open</text>
+    <text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#D97706">G</text><text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">320003 · G B D G B G</text>
+    <line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+    <line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+    <line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+    <line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+    <line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+    <line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+    <line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <rect x="15" y="88" width="4" height="110" rx="1" fill="#8b949e"/>
+    <text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text><text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text><text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text><text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text><text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text><text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+    <text x="23" y="135" font-size="9" fill="#6e7781" text-anchor="middle">o</text><text x="23" y="157" font-size="9" fill="#6e7781" text-anchor="middle">o</text><text x="23" y="179" font-size="9" fill="#6e7781" text-anchor="middle">o</text>
+    <circle cx="107" cy="88" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="107" y="91.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G</text>
+    <circle cx="77" cy="110" r="8.5" fill="#2563EB" stroke="white" stroke-width="1.2"/><text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+    <circle cx="107" cy="202" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="107" y="205.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G</text>
+    <text x="92" y="245" text-anchor="middle" font-size="8.5" fill="#57606a">root E string · 3rd fret</text>
+  </g>
+  <g transform="translate(702, 150)">
+    <rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="0" y="0" width="184" height="26" rx="8" fill="#E11D48"/><rect x="0" y="13" width="184" height="13" fill="#E11D48"/>
+    <text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">E · shape</text><text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">open</text>
+    <text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#E11D48">E</text><text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">022100 · E B E G# B E</text>
+    <line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+    <line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+    <line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+    <line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+    <line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+    <line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+    <line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <rect x="15" y="88" width="4" height="110" rx="1" fill="#8b949e"/>
+    <text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text><text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text><text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text><text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text><text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text><text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+    <text x="23" y="91" font-size="9" fill="#6e7781" text-anchor="middle">o</text><text x="23" y="179" font-size="9" fill="#6e7781" text-anchor="middle">o</text><text x="23" y="201" font-size="9" fill="#6e7781" text-anchor="middle">o</text>
+    <circle cx="77" cy="110" r="8.5" fill="#059669" stroke="white" stroke-width="1.2"/><text x="77" y="113.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">B</text>
+    <circle cx="77" cy="132" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="77" y="135.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">E</text>
+    <circle cx="47" cy="154" r="8.5" fill="#2563EB" stroke="white" stroke-width="1.2"/><text x="47" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">G#</text>
+    <text x="92" y="245" text-anchor="middle" font-size="8.5" fill="#57606a">root E string · open</text>
+  </g>
+  <g transform="translate(924, 150)">
+    <rect x="0" y="0" width="184" height="258" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="0" y="0" width="184" height="26" rx="8" fill="#8250df"/><rect x="0" y="13" width="184" height="13" fill="#8250df"/>
+    <text x="12" y="17" font-size="10.5" font-weight="700" fill="#ffffff">D · shape</text><text x="172" y="17" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="end">open</text>
+    <text x="92" y="52" text-anchor="middle" font-size="18" font-weight="800" fill="#8250df">D</text><text x="92" y="66" text-anchor="middle" font-size="9.5" fill="#57606a">xx0232 · D A D F#</text>
+    <line x1="17" y1="88" x2="167" y2="88" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.8"/>
+    <line x1="17" y1="110" x2="167" y2="110" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.4"/>
+    <line x1="17" y1="132" x2="167" y2="132" stroke="#57606a" stroke-opacity="0.5" stroke-width="2.0"/>
+    <line x1="17" y1="154" x2="167" y2="154" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.6"/>
+    <line x1="17" y1="176" x2="167" y2="176" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.3"/>
+    <line x1="17" y1="198" x2="167" y2="198" stroke="#57606a" stroke-opacity="0.5" stroke-width="1.1"/>
+    <line x1="17" y1="88" x2="17" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="47" y1="88" x2="47" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="77" y1="88" x2="77" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="107" y1="88" x2="107" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <line x1="137" y1="88" x2="137" y2="198" stroke="#d0d7de" stroke-width="1.5"/>
+    <rect x="15" y="88" width="4" height="110" rx="1" fill="#8b949e"/>
+    <text x="14" y="92" font-size="7" text-anchor="end" fill="#8b949e">E</text><text x="14" y="114" font-size="7" text-anchor="end" fill="#8b949e">A</text><text x="14" y="136" font-size="7" text-anchor="end" fill="#8b949e">D</text><text x="14" y="158" font-size="7" text-anchor="end" fill="#8b949e">G</text><text x="14" y="180" font-size="7" text-anchor="end" fill="#8b949e">B</text><text x="14" y="202" font-size="7" text-anchor="end" fill="#8b949e">e</text>
+    <text x="23" y="91" font-size="10" fill="#8b949e" text-anchor="middle">×</text><text x="23" y="113" font-size="10" fill="#8b949e" text-anchor="middle">×</text>
+    <text x="23" y="135" font-size="9" fill="#6e7781" text-anchor="middle">o</text>
+    <circle cx="77" cy="154" r="8.5" fill="#059669" stroke="white" stroke-width="1.2"/><text x="77" y="157.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">A</text>
+    <circle cx="107" cy="176" r="8.5" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="107" y="179.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">D</text>
+    <circle cx="77" cy="202" r="8.5" fill="#2563EB" stroke="white" stroke-width="1.2"/><text x="77" y="205.2" text-anchor="middle" font-size="8" font-weight="700" fill="white">F#</text>
+    <text x="92" y="245" text-anchor="middle" font-size="8.5" fill="#57606a">root D string · open</text>
+  </g>
+
+<!-- FULL NECK MAP WITH C MAJOR DIATONIC GHOSTS -->
+  <line x1="24" y1="430" x2="1108" y2="430" stroke="#d0d7de"/>
+  <text x="24" y="456" font-size="17" font-weight="800" fill="#0d1117">ALL FIVE MOVED TO C — OVERLAPPING UP THE NECK</text>
+  <text x="24" y="475" font-size="11" fill="#57606a">Solid = C major triad (C·E·G) from each CAGED shape moved to C.</text>
+  <text x="24" y="490" font-size="11" fill="#57606a">C at fret 3 = A-shape (x35533) · C at fret 5 = G-shape (8x5558→C)</text>
+  <text x="24" y="505" font-size="11" fill="#57606a">C at fret 8 = C- and E-shapes · C at fret 10 = D-shape — bands show each grip’s region.</text>
+  <g transform="translate(24, 527)">
+    <circle cx="5" cy="0" r="6" fill="#0d1117"/><text x="16" y="5" font-size="11" fill="#57606a">root</text>
+    <circle cx="64" cy="0" r="6" fill="#2563EB"/><text x="76" y="5" font-size="11" fill="#57606a">3rd</text>
+    <circle cx="112" cy="0" r="6" fill="#059669"/><text x="124" y="5" font-size="11" fill="#57606a">5th</text>
+  </g>
+
+  <g transform="translate(48, 575)">
+    <g stroke="#0d1117" stroke-opacity="0.42" fill="none">
+      <line x1="0" y1="0" x2="1144" y2="0"/><line x1="0" y1="28" x2="1144" y2="28"/><line x1="0" y1="56" x2="1144" y2="56"/><line x1="0" y1="84" x2="1144" y2="84"/><line x1="0" y1="112" x2="1144" y2="112"/><line x1="0" y1="140" x2="1144" y2="140"/>
+    </g>
+    <g stroke="#0d1117" stroke-opacity="0.14">
+      <line x1="88" y1="-10" x2="88" y2="150"/><line x1="176" y1="-10" x2="176" y2="150"/><line x1="264" y1="-10" x2="264" y2="150"/><line x1="352" y1="-10" x2="352" y2="150"/><line x1="440" y1="-10" x2="440" y2="150"/><line x1="528" y1="-10" x2="528" y2="150"/><line x1="616" y1="-10" x2="616" y2="150"/><line x1="704" y1="-10" x2="704" y2="150"/><line x1="792" y1="-10" x2="792" y2="150"/><line x1="880" y1="-10" x2="880" y2="150"/><line x1="968" y1="-10" x2="968" y2="150"/><line x1="1056" y1="-10" x2="1056" y2="150"/><line x1="1144" y1="-10" x2="1144" y2="150"/>
+    </g>
+    <line x1="0" y1="-12" x2="0" y2="152" stroke="#8b949e" stroke-width="7"/>
+    <g fill="none" stroke="#8b949e" stroke-opacity="0.28"><circle cx="264" cy="70" r="6"/><circle cx="440" cy="70" r="6"/><circle cx="616" cy="70" r="6"/><circle cx="792" cy="70" r="6"/></g>
+    <!-- shape bands for C -->
+    <g fill-opacity="0.10" stroke-linejoin="round" stroke-linecap="round">
+      <!-- C shape 0: hull around A3(264,28) D2(176,56) G0(0,84) B1(88,112) e0(0,140) -->
+      <polygon points="-16,82 280,22 90,130 -16,149" fill="#2563EB" />
+      <!-- A shape 3: hull around A3(264,28) D5(440,56) G5(440,84) B5(440,112) e3(264,140) -->
+      <polygon points="248,18 458,50 458,118 248,150" fill="#059669" />
+      <!-- G shape 5: hull around E8(704,0) D5(440,56) G5(440,84) B5(440,112) e8(704,140) -->
+      <polygon points="424,54 720,-9 720,148 424,118" fill="#D97706" />
+      <!-- E shape 8: hull around E8(704,0) A10(880,28) D10(880,56) G9(792,84) B8(704,112) e8(704,140) -->
+      <polygon points="688,-9 898,22 898,58 692,152" fill="#E11D48" />
+      <!-- D shape 10: hull around D10(880,56) G12(1056,84) B13(1144,112) e12(1056,140) -->
+      <polygon points="864,51 1072,74 1160,114 1064,150 864,150" fill="#8250df" />
+    </g>
+    <g font-size="10" fill="#8b949e"><text x="-18" y="4">E</text><text x="-18" y="32">A</text><text x="-18" y="60">D</text><text x="-18" y="88">G</text><text x="-18" y="116">B</text><text x="-18" y="144">E</text></g>
+
+    <!-- CHORD TONES ONLY - 5 CAGED shapes moved to C (no ghosts) -->
+    <!-- Each shape exactly matches its open diagram transposed: C x32010, A x02220, G 320003 (8x5558), E 022100 (8 10 10 9 8 8), D xx0232 -->
+    <g>
+      <!-- C shape 0 (x32010) - A3 C, D2 E, G0 G, B1 C, e0 E -->
+      <circle cx="264" cy="28" r="9" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="264" y="32" text-anchor="middle" font-size="8" fill="white" font-weight="700">C</text>
+      <circle cx="176" cy="56" r="8" fill="#2563EB" stroke="white" stroke-width="1.2"/><text x="176" y="59" text-anchor="middle" font-size="7" fill="white" font-weight="700">E</text>
+      <circle cx="0" cy="84" r="8" fill="#059669" stroke="white" stroke-width="1.2"/><text x="0" y="87" text-anchor="middle" font-size="7" fill="white" font-weight="700">G</text>
+      <circle cx="88" cy="112" r="9" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="88" y="116" text-anchor="middle" font-size="8" fill="white" font-weight="700">C</text>
+      <circle cx="0" cy="140" r="8" fill="#2563EB" stroke="white" stroke-width="1.2"/><text x="0" y="143" text-anchor="middle" font-size="7" fill="white" font-weight="700">E</text>
+      <!-- A shape 3 (x35533) - A3 C, D5 G, G5 C, B5 E, e3 G -->
+      <circle cx="440" cy="56" r="8" fill="#059669" stroke="white" stroke-width="1.2"/><text x="440" y="59" text-anchor="middle" font-size="7" fill="white" font-weight="700">G</text>
+      <circle cx="440" cy="84" r="9" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="440" y="88" text-anchor="middle" font-size="8" fill="white" font-weight="700">C</text>
+      <circle cx="440" cy="112" r="8" fill="#2563EB" stroke="white" stroke-width="1.2"/><text x="440" y="115" text-anchor="middle" font-size="7" fill="white" font-weight="700">E</text>
+      <circle cx="264" cy="140" r="8" fill="#059669" stroke="white" stroke-width="1.2"/><text x="264" y="143" text-anchor="middle" font-size="7" fill="white" font-weight="700">G</text>
+      <!-- G shape 5 (8x5558) - E8 C, D5 G, G5 C, B5 E, e8 C (A muted) -->
+      <circle cx="704" cy="0" r="9" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="704" y="4" text-anchor="middle" font-size="8" fill="white" font-weight="700">C</text>
+      <circle cx="704" cy="140" r="9" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="704" y="144" text-anchor="middle" font-size="8" fill="white" font-weight="700">C</text>
+      <!-- E shape 8 (8 10 10 9 8 8) - E8 C, A10 G, D10 C, G9 E, B8 G, e8 C -->
+      <circle cx="880" cy="28" r="8" fill="#059669" stroke="white" stroke-width="1.2"/><text x="880" y="31" text-anchor="middle" font-size="7" fill="white" font-weight="700">G</text>
+      <circle cx="880" cy="56" r="9" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="880" y="60" text-anchor="middle" font-size="8" fill="white" font-weight="700">C</text>
+      <circle cx="792" cy="84" r="8" fill="#2563EB" stroke="white" stroke-width="1.2"/><text x="792" y="87" text-anchor="middle" font-size="7" fill="white" font-weight="700">E</text>
+      <circle cx="704" cy="112" r="8" fill="#059669" stroke="white" stroke-width="1.2"/><text x="704" y="115" text-anchor="middle" font-size="7" fill="white" font-weight="700">G</text>
+      <!-- D shape 10 (xx101312) - D10 C, G12 G, B13 C, e12 E -->
+      <circle cx="1056" cy="84" r="8" fill="#059669" stroke="white" stroke-width="1.2"/><text x="1056" y="87" text-anchor="middle" font-size="7" fill="white" font-weight="700">G</text>
+      <circle cx="1144" cy="112" r="9" fill="#0d1117" stroke="white" stroke-width="1.2"/><text x="1144" y="116" text-anchor="middle" font-size="8" fill="white" font-weight="700">C</text>
+      <circle cx="1056" cy="140" r="8" fill="#2563EB" stroke="white" stroke-width="1.2"/><text x="1056" y="143" text-anchor="middle" font-size="7" fill="white" font-weight="700">E</text>
+    </g>
+    <g font-size="10" fill="#57606a" text-anchor="middle">
+      <text x="0" y="-30">0</text><text x="88" y="-30">1</text><text x="176" y="-30">2</text><text x="264" y="-30">3</text><text x="352" y="-30">4</text><text x="440" y="-30">5</text><text x="528" y="-30">6</text><text x="616" y="-30">7</text><text x="704" y="-30">8</text><text x="792" y="-30">9</text><text x="880" y="-30">10</text><text x="968" y="-30">11</text><text x="1056" y="-30">12</text><text x="1144" y="-30">13</text>
+    </g>
+    <line x1="1056" y1="-14" x2="1056" y2="154" stroke="#2563EB" stroke-opacity="0.45" stroke-dasharray="5 4"/>
+    <text x="1056" y="-2" font-size="9" fill="#2563EB" text-anchor="middle">octave 12</text>
+  </g>
+
+
+</svg>
