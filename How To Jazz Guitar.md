@@ -2,7 +2,17 @@
 
 This is intended for people who know some music (you read chord symbols, you know a major scale) and you want the shortest path to comping and soloing jazz changes. No printable journal, no fluff — just the minimum theory to make the shapes musical.
 
-This guide is split into one page per section. Start at the top and work down — each page links to the next.
+This guide is split into one page per section. Start at the top but you'll want to work on a little bit of everything as quickly as you can get there. Each concept reinforces the others. And putting everything into the context of a song is important.
+
+## The Frameworks
+
+**CAGED** - This is the map for *navigating the fretboard* for any given chord.
+
+**Diatonic Harmony** - This is the map for *navigating a song* given any chord changes.
+
+**Shell Chords** - These are the chord voicings that allow you to simplify all the theory into a set of *pragmatic chord shapes*.
+
+**Barry Harris** - This is the map to navigating *harmonic motion* for any given chord. And it creates an 8 note scale often referred to as the *be-bop scale*. You will instantly start to hear jazzy sounds with this stuff.
 
 ## Sections
 
@@ -10,7 +20,7 @@ This guide is split into one page per section. Start at the top and work down �
 - [1. CAGED](./01-CAGED.md)
 - [2. Scales & Modes](./02-Scales-Modes.md)
 - [3. Diatonic Harmony — Triads, 7ths, Function](./03-Diatonic-Harmony.md)
-- [4. Shells & Basic Voicings](./04-Shells-Voicings.md)
+- [4. Shell Chords](04-Shell-Chords.md)
 - [5. The Barry Harris System](./05-Barry-Harris.md)
 - [6. Repertoire Lab](./06-Repertoire-Lab.md)
 

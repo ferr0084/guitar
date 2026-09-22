@@ -43,4 +43,4 @@ Triads are the same without the 7th (`1·3·5`): `C Dm Em F G Am B°` — same f
 > **Checkpoint:** diatonic 7ths in C A-shape clean, can name `I ii V vi` function by ear.
 
 ---
-← [Prev](./02-Scales-Modes.md) · [Index](<./How To Jazz Guitar.md>) · [Next](./04-Shells-Voicings.md) →
+← [Prev](./02-Scales-Modes.md) · [Index](<./How To Jazz Guitar.md>) · [Next](04-Shell-Chords.md) →

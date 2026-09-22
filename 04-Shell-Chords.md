@@ -1,8 +1,8 @@
 > [How To Jazz Guitar](<./How To Jazz Guitar.md>) / 4. Shells & Voicings
 
-# 4. Shell Voicings
+# 4. Shell Chords
 
-Full `1·3·5·7` is informative; `1·7·3` is *functional*. Drop the 5th — the shell still tells major/minor/dominant, it voice-leads by semitone, and it leaves room for a soloist or pianist. This chapter reduces, then moves.
+Full `1·3·5·7` is informative; `1·7·3` is *functional*. Drop the 5th — the shell still tells major/minor/dominant, it voice-leads by semitone, and it leaves room for a soloist or pianist. This chapter reduces theoretical chords to their pragmatic minimum.
 
 ### Shell logic — 1·7·3 on one bass string
 

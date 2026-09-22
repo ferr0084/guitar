@@ -8,7 +8,7 @@ Harris: a **6th (or 7th) chord + the °7 a half-step below** contain all 8 notes
 
 * **Major 6-dim:** `C6 C E G A + B°7 B D F Ab` = `{C D E F G Ab A B}` = `1 2 3 4 5 ♭6 6 7`
 * **Minor 6-dim:** `Cm6 C E♭ G A + B°7` = `{C D E♭ F G Ab A B}`
-* **Dominant 6-dim:** `C7 C E G B♭ + B°7` = `{C D E F G Ab B♭ B}`
+* **Dominant 7-dim:** `C7 C E G B♭ + B°7` = `{C D E F G Ab B♭ B}`
 
 With 0–3 chromatic passes `B→B♭→A→Ab→G` descending, chord tones land on beats (half-step rule).
 
@@ -43,7 +43,7 @@ Pattern: `C6 →°7→ C6 →°7...` Every `C6` is `C E G A` rotated; every `°7
 
 *Toggle drill:* `C6(3) ↔ Cm6(3)` — one fret `E↔E♭` on `B5` — hear major→minor.
 
-### C dominant 6-dim — middle 4
+### C dominant 7-dim — middle 4
 
 `bh-scale-of-chords.svg:38` row `C DOMINANT — C7 C E G B♭ + B°7` frets `3,5,7,8,10,11,13,14` (13 not 12 to stay monotonic):
 
@@ -69,4 +69,4 @@ Each step moves one voice by half-step — the neck *shows* voice-leading.
 > **Checkpoint:** `C6→D°7→C6/E` middle-4 blind, plus same scale low-E for `G` and top-4 for `F`.
 
 ---
-← [Prev](./04-Shells-Voicings.md) · [Index](<./How To Jazz Guitar.md>) · [Next](./06-Repertoire-Lab.md) →
+← [Prev](04-Shell-Chords.md) · [Index](<./How To Jazz Guitar.md>) · [Next](./06-Repertoire-Lab.md) →
