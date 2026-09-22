@@ -20,7 +20,7 @@
 
 **Scale:** `F Dorian → B♭ Mixolydian → E♭ Ionian` (bars 1–4) — same box move you drilled in Ch 2 `ii-V-I` but now the `I` becomes `ii` of the next key.
 
-![All The Things You Are](all_the_things_you_are_600dpi.jpeg)
+![All The Things You Are](./media/all_the_things_you_are_600dpi.jpeg)
 
 ---
 ← [Prev](./06-03-All-Of-Me.md) · [Index](<./How To Jazz Guitar.md>) · [Next](./06-05-Blue-Bossa.md) →

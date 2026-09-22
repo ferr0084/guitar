@@ -30,7 +30,7 @@ Middle-4 = `A(1) D(5) G(7) B(3)` — frets `root / 5th / 7th / 3rd` per card (wi
 * `vi·A` 12 `Am7 12-14-12-13` = `A E G C`
 * `vii°·B` 14 `Bø7 14-15-13-15` = `B F A D` (`♭5 F`)
 
-![C major 7ths](scale-comparison.svg)
+![C major 7ths](./media/scale-comparison.svg)
 
 *Comp:* `| Cmaj7 | Dm7 | Em7 | Fmaj7 | G7 | Am7 | Bø7 | Cmaj7 |` staying in A-shape middle-4, 2 beats each at 60. Hear quality change while grip stays.
 

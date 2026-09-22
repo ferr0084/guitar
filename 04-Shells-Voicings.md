@@ -22,7 +22,7 @@ Full `1·3·5·7` is informative; `1·7·3` is *functional*. Drop the 5th — th
 * `vi A` 12 `Am7` = `A12:A / G12:G / B13:C`
 * `vii° B` 14 `Bø7` = `A14:B / G14:A / B15:D`
 
-![Shells A-string](shell-chords.svg)
+![Shells A-string](./media/shell-chords.svg)
 
 *Voice-leading lab:* play `Cmaj7→Dm7→Em7→Fmaj7` as shells. Watch `B string 3rd`: `E5→F6→G8→A10` stepwise; `G string 7th`: `B4→C5→D7→E9` stepwise. That stepwise motion *is* the scale inside the chords.
 

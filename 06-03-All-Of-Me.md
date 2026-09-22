@@ -25,7 +25,7 @@ Footnote on sheet: bar 29 `Dm7` may be played `Dm7♭5` (diatonic `iiø` color b
 
 **Scale:** `C Ionian` home with `Mixolydian` on each `7` bar; `E7` bar carries `G#` (`V7/vi`, A harmonic-minor flavor), `A7` bar carries `C#` (`V7/ii`), `D13` bar = `D Mixolydian`.
 
-![All Of Me](all_of_me_600dpi.jpeg)
+![All Of Me](./media/all_of_me_600dpi.jpeg)
 
 ---
 ← [Prev](./06-02-Autumn-Leaves.md) · [Index](<./How To Jazz Guitar.md>) · [Next](./06-04-All-The-Things-You-Are.md) →

@@ -20,7 +20,7 @@
 
 **Scale:** `E Dorian → A Mixolydian → D Ionian` (first 4 bars) — Ch 2 pivot in loop.
 
-![Tune Up](tune_up_600dpi.jpeg)
+![Tune Up](./media/tune_up_600dpi.jpeg)
 
 ---
 ← [Prev](./06-05-Blue-Bossa.md) · [Index](<./How To Jazz Guitar.md>) · [Next](./06-07-Oleo-Rhythm-Changes-Basic.md) →

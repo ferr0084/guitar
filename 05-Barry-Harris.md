@@ -29,7 +29,7 @@ With 0–3 chromatic passes `B→B♭→A→Ab→G` descending, chord tones land
 
 Pattern: `C6 →°7→ C6 →°7...` Every `C6` is `C E G A` rotated; every `°7` is `B D F Ab` rotated.
 
-![BH C major](bh-scale-of-chords.svg)
+![BH C major](./media/bh-scale-of-chords.svg)
 
 *Drill:* 60 BPM, 2 beats each ascending `C6(3)→D°7(5)→C6/E(7)→F°7(8)→C6/G(10)→Ab°7(11)→C6/A(12)→B°7(14)` then descending. Watch `G` string `2→4→5` chromatic `A→B`.
 

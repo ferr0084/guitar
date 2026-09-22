@@ -20,7 +20,7 @@
 
 **Scale:** `C Dorian` (`C D E♭ F G A B♭`) over `Cm7`, `C melodic minor` `C D E♭ F G A B` over `Dm7♭5 G7` for altered `G`.
 
-![Blue Bossa](blue_bossa_600dpi.jpeg)
+![Blue Bossa](./media/blue_bossa_600dpi.jpeg)
 
 ---
 ← [Prev](./06-04-All-The-Things-You-Are.md) · [Index](<./How To Jazz Guitar.md>) · [Next](./06-06-Tune-Up.md) →

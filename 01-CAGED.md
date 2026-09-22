@@ -20,7 +20,7 @@ Each is `0 4 7` semitones (`R M3 P5`, major triad `C= C(0) E(4) G(7)`). Same int
 
 *Drill:* strum → arpeggiate low→high→low naming `1-3-5-1-3` → reform without looking. 5 reps, eyes closed on the 5th.
 
-![CAGED](caged-system.svg)
+![CAGED](./media/caged-system.svg)
 
 ### Five Cs — one chord, five places
 
