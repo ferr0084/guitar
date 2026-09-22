@@ -8,7 +8,7 @@ This guide is split into one page per section. Start at the top but you'll want 
 
 **CAGED** - This is the map for *navigating the fretboard* for any given chord.
 
-**Diatonic Harmony** - This is the map for *navigating a song* given any chord changes.
+**Diatonic Harmony** - This is the map for *navigating the chord changes* of any song. This and secondary dominants will explain most of chord changes you will encounter.
 
 **Shell Chords** - These are the chord voicings that allow you to simplify all the theory into a set of *pragmatic chord shapes*.
 
