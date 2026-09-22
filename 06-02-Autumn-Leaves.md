@@ -22,7 +22,7 @@
 
 **Scale:** `B♭ Ionian` over `Cm7 F7 B♭` (or `C Dorian`), `G Aeolian` (`G A B♭ C D E♭ F`) over `Am7♭5 D7 Gm` — or `G melodic minor` `G A B♭ C D E F#` for `D7` altered.
 
-![Autumn Leaves](./autumn_leaves_600dpi.jpeg)
+![Autumn Leaves](autumn_leaves_600dpi.jpeg)
 
 ---
 ← [Prev](./06-01-C-Jam-Blues-All-Blues.md) · [Index](<./How To Jazz Guitar.md>) · [Next](./06-03-All-Of-Me.md) →

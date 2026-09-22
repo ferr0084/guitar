@@ -1,6 +1,6 @@
 > [How To Jazz Guitar](<./How To Jazz Guitar.md>) / 5. Barry Harris
 
-# 5. The Barry Harris System — One Scale, All Chords
+# 5. The Barry Harris System
 
 Harris: a **6th (or 7th) chord + the °7 a half-step below** contain all 8 notes of the 6th-diminished scale. Alternate `6 → °7 → 6 → °7...` — every scale degree becomes a chord tone. One 6th cycles 4 inversions; one °7 cycles 4 rotations, but `B°7 = D°7 = F°7 = A♭°7` (same `0 3 6 9` pcs).
 
@@ -29,7 +29,7 @@ With 0–3 chromatic passes `B→B♭→A→Ab→G` descending, chord tones land
 
 Pattern: `C6 →°7→ C6 →°7...` Every `C6` is `C E G A` rotated; every `°7` is `B D F Ab` rotated.
 
-![BH C major](./bh-scale-of-chords.svg)
+![BH C major](bh-scale-of-chords.svg)
 
 *Drill:* 60 BPM, 2 beats each ascending `C6(3)→D°7(5)→C6/E(7)→F°7(8)→C6/G(10)→Ab°7(11)→C6/A(12)→B°7(14)` then descending. Watch `G` string `2→4→5` chromatic `A→B`.
 

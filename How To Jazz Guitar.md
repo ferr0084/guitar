@@ -1,4 +1,4 @@
-# How To Jazz Guitar — No Fluff Fast-Track
+# No Fluff Fast-Track
 
 This is intended for people who know some music (you read chord symbols, you know a major scale) and you want the shortest path to comping and soloing jazz changes. No printable journal, no fluff — just the minimum theory to make the shapes musical.
 
@@ -7,14 +7,14 @@ This guide is split into one page per section. Start at the top and work down �
 ## Sections
 
 - [0. Key to Learning FAST](./00-Key-to-Learning-FAST.md)
-- [1. CAGED — The Neck Tiled](./01-CAGED.md)
-- [2. Scales & Modes — One Box, Seven Sounds](./02-Scales-Modes.md)
+- [1. CAGED](./01-CAGED.md)
+- [2. Scales & Modes](./02-Scales-Modes.md)
 - [3. Diatonic Harmony — Triads, 7ths, Function](./03-Diatonic-Harmony.md)
-- [4. Shells & Voicings Everywhere](./04-Shells-Voicings.md)
-- [5. The Barry Harris System — One Scale, All Chords](./05-Barry-Harris.md)
-- [6. Repertoire Lab — 8 Tunes, One Method](./06-Repertoire-Lab.md)
+- [4. Shells & Basic Voicings](./04-Shells-Voicings.md)
+- [5. The Barry Harris System](./05-Barry-Harris.md)
+- [6. Repertoire Lab](./06-Repertoire-Lab.md)
 
-## Tunes (in [6. Repertoire Lab](./06-Repertoire-Lab.md))
+## Tunes  in [Repertoire Lab](./06-Repertoire-Lab.md)
 
 1. [C Jam Blues / All Blues — 12-Bar Blues in C / G](./06-01-C-Jam-Blues-All-Blues.md)
 2. [Autumn Leaves — G Minor / E♭ Major — 32-Bar](./06-02-Autumn-Leaves.md)

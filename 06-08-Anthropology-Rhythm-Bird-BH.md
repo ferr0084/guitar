@@ -24,7 +24,7 @@ Each `7` → its `°7` a half-step below, exactly `dim-6th-dominant.svg` dominan
 
 **Scale:** Same as basic, but now every scale step is harmonized — solo with `B♭ major` scale, every note lands on `6` or `°7` — Harris half-step rule in situ.
 
-![Anthropology — Rhythm Changes Bird/BH](./anthropology_600dpi.jpeg)
+![Anthropology — Rhythm Changes Bird/BH](anthropology_600dpi.jpeg)
 
 ---
 ← [Prev](./06-07-Oleo-Rhythm-Changes-Basic.md) · [Index](<./How To Jazz Guitar.md>) · [Next](<./How To Jazz Guitar.md>) →

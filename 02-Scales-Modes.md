@@ -16,7 +16,7 @@ Fingering: index 2, middle 3, ring 4, pinky 5/6.
 **Above — index on C — frets 3–7**
 Card `ABOVE 3–7` (`:133`) — `C at A3` under index, A-shape/G-shape region.
 
-![c-major-scale-caged](./c-major-scale-caged.svg)
+![c-major-scale-caged](c-major-scale-caged.svg)
 
 ### CAGED transpositions
 

@@ -22,7 +22,7 @@
 
 **Scale:** `B♭ Ionian` over `B♭maj7`, `G Mixolydian` over `G7` (or `C Dorian → F Mixolydian → B♭ Ionian` for `Cm7 F7 B♭`).
 
-![Oleo — Rhythm Changes Basic](./oleo_600dpi.jpeg)
+![Oleo — Rhythm Changes Basic](oleo_600dpi.jpeg)
 
 ---
 ← [Prev](./06-06-Tune-Up.md) · [Index](<./How To Jazz Guitar.md>) · [Next](./06-08-Anthropology-Rhythm-Bird-BH.md) →
